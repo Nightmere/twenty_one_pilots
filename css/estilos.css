@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #ffe8e8; }
+
+.nav-link {
+  color: #209cb8 !important; }
+  .nav-link:hover {
+    color: #ed6fa3 !important; }
+
+.logo {
+  background-color: #81ccdd;
+  width: 5rem; }
+
+.navbar-nav {
+  font-family: "Pacifico", cursive;
+  font-size: 1.3rem; }
+  .navbar-nav li {
+    border: 2px solid #209cb8;
+    margin: 0 1.5rem;
+    padding: 5px; }
+
+.tituloPrincipal, .tituloSecundario {
+  color: #81ccdd;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 1rem; }
+
+.tituloSecundario {
+  color: #209cb8;
+  font-size: 2.5rem; }
+
+.contenedor_principal {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #81ccdd;
+  margin: 1.5rem 0px;
+  padding: 1rem; }
+  .contenedor_principal h3 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 3rem;
+    color: white;
+    padding-right: 2rem; }
+  .contenedor_principal h4 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 3rem;
+    color: #ed6fa3;
+    padding-left: 2rem;
+    text-align: center; }
+  .contenedor_principal ul {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 2rem;
+    margin-left: 7rem;
+    background-color: #ffe8e8;
+    padding: 15px;
+    text-decoration: none;
+    list-style: none; }
+    .contenedor_principal ul li a {
+      color: #ed6fa3; }
+      .contenedor_principal ul li a:hover {
+        color: #209cb8; }
+
+.contenedor_secundario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #ed6fa3;
+  margin: 2rem 0px;
+  padding: 1rem; }
+  .contenedor_secundario h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Berkshire Swash", cursive;
+    font-size: 3.5rem;
+    color: white;
+    width: 100%;
+    padding-bottom: 1rem; }
+  .contenedor_secundario h4 {
+    font-size: 3rem;
+    font-family: "Berkshire Swash", cursive;
+    color: #81ccdd;
+    padding: 0rem 2rem;
+    text-align: center; }
+  .contenedor_secundario video {
+    width: 50%; }
+
+.contenedor_footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem; }
+
+.contenedor_footer__section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #81ccdd;
+  padding: 1rem 0rem; }
+  .contenedor_footer__section h5 {
+    width: 100%;
+    padding-bottom: 1rem;
+    margin: 0rem; }
+  .contenedor_footer__section form input {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 1rem;
+    padding: 1rem;
+    border: none; }
+
+.contenedor_footer__section_suscribe {
+  color: white;
+  background-color: #ed6fa3; }
+
+.footer_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem; }
+
+.footer_nav__bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center; }
+  .footer_nav__bar h5 {
+    width: 100%; }
+  .footer_nav__bar ul {
+    list-style: none;
+    padding: 0; }
+    .footer_nav__bar ul li a {
+      text-decoration: none;
+      color: #209cb8;
+      font-family: "Berkshire Swash", cursive;
+      font-size: 1rem; }
+      .footer_nav__bar ul li a:hover {
+        color: #ed6fa3;
+        transition: 0.5s; }
+
+.tituloFooter {
+  color: #209cb8;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 1.5rem; }
+
+.tabla {
+  font-family: "Berkshire Swash", cursive;
+  background-color: #81ccdd;
+  border: 2px solid black;
+  margin: 5rem; }
+  .tabla h2 {
+    font-size: 3rem;
+    background-color: #ed6fa3;
+    color: white;
+    margin-bottom: 0; }
+  .tabla div {
+    font-size: 1.2rem; }
+    .tabla div table {
+      margin: 0; }
+      .tabla div table tr {
+        border-top: 2px solid black; }
+        .tabla div table tr td {
+          padding: 1rem; }
+          .tabla div table tr td span {
+            cursor: pointer; }
+            .tabla div table tr td span:hover {
+              color: #ed6fa3; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px; }
+
+.galeria__fotos {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 5px solid #ed6fa3; }
+  .galeria__fotos:hover {
+    transform: scale(1.1, 1.1);
+    transition: 1s; }
+
+.galeria div:nth-child(4) {
+  grid-row-start: span 2; }
+
+.galeria div:nth-child(5) {
+  grid-row-start: span 2; }
+
+.fondo-tienda {
+  background-color: #81ccdd; }
+
+.titulo_store {
+  text-align: center;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 3rem;
+  color: #ed6fa3; }
+
+.col-4 {
+  flex-basis: 33%;
+  padding: 10px;
+  min-width: 200px;
+  text-align: center;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 1.5rem;
+  margin: 1px;
+  border: 2px solid #ffe8e8;
+  color: white;
+  transition: transform 0.5s; }
+  .col-4:hover {
+    transform: translateY(-5px);
+    opacity: 0.6;
+    cursor: pointer; }
+  .col-4 img {
+    width: 100%; }
+
+@media (max-width: 768px) {
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px; } }

@@ -1,0 +1,32 @@
+.fondo-tienda {
+    background-color: $celeste;
+}
+
+.titulo_store {
+    text-align: center;
+    font-family: $fuente1;
+    font-size: 3rem;
+    color: $rosa;
+}
+
+.col-4 {
+    flex-basis: 33%;
+    padding: 10px;
+    min-width: 200px;
+    text-align: center;
+    font-family: $fuente1;
+    font-size: 1.5rem;
+    margin: 1px;
+    border: 2px solid #ffe8e8;
+    color: $blanco;
+    transition: transform 0.5s;
+    &:hover {
+        transform: translateY(-5px);
+        opacity: 0.6;
+        cursor: pointer;
+    }
+    img {
+        width: 100%;
+    }
+}
+
