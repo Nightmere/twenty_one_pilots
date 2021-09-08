@@ -1,12 +1,11 @@
-.fondo-tienda {
+.tienda {
     background-color: $celeste;
-}
-
-.titulo_store {
-    text-align: center;
-    font-family: $fuente1;
-    font-size: 3rem;
-    color: $rosa;
+    .titulo_tienda {
+        text-align: center;
+        font-family: $fuente1;
+        font-size: 3rem;
+        color: $rosa;
+    }
 }
 
 .col-4 {
