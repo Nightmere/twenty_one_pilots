@@ -1,0 +1,75 @@
+.album_1 {
+    font-family: $fuente1;
+    background-color: $celeste;
+    border: 5px solid $rosa;
+    .card-title {
+        color: $rosa;
+        font-size: 2rem;
+    }
+    .card-text {
+        color: $blanco;
+        font-size: 1.2rem;
+    }
+    img {
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}
+
+.album_2 {
+    font-family: $fuente1;
+    background-color: #595b3c;
+    border: 5px solid #fce300ef;
+    .card-title {
+        color: #fce300;
+        font-size: 2rem;
+    }
+    .card-text {
+        color: $blanco;
+        font-size: 1.2rem;
+    }
+    img {
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}
+
+.album_3 {
+    font-family: $fuente1;
+    background-color: #000000f3;
+    border: 5px solid #df2a2a;
+    .card-title {
+        color: #df2a2a;
+        font-size: 2rem;
+    }
+    .card-text {
+        color: $blanco;
+        font-size: 1.2rem;
+    }
+    img {
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}
+
+.album_4 {
+    font-family: $fuente1;
+    background-color: #e7e7e7;
+    border: 5px solid #89a9ce;
+    .card-title {
+        color: #89a9ce;
+        font-size: 2rem;
+    }
+    .card-text {
+        color: #5a7696;
+        font-size: 1.2rem;
+    }
+    img {
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}

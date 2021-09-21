@@ -172,26 +172,64 @@ body {
             .tabla div table tr td span:hover {
               color: #ed6fa3; }
 
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 10px;
-  padding: 20px; }
-  .galeria div img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border: 5px solid #ed6fa3; }
-    .galeria div img:hover {
-      transform: scale(1.1, 1.1);
-      transition: 1s; }
+.album_1 {
+  font-family: "Berkshire Swash", cursive;
+  background-color: #81ccdd;
+  border: 5px solid #ed6fa3; }
+  .album_1 .card-title {
+    color: #ed6fa3;
+    font-size: 2rem; }
+  .album_1 .card-text {
+    color: white;
+    font-size: 1.2rem; }
+  .album_1 img:hover {
+    opacity: 0.6; }
 
-.galeria div:nth-child(4) {
-  grid-row-start: span 2; }
+.album_2 {
+  font-family: "Berkshire Swash", cursive;
+  background-color: #595b3c;
+  border: 5px solid #fce300ef; }
+  .album_2 .card-title {
+    color: #fce300;
+    font-size: 2rem; }
+  .album_2 .card-text {
+    color: white;
+    font-size: 1.2rem; }
+  .album_2 img:hover {
+    opacity: 0.6; }
 
-.galeria div:nth-child(5) {
-  grid-row-start: span 2; }
+.album_3 {
+  font-family: "Berkshire Swash", cursive;
+  background-color: #000000f3;
+  border: 5px solid #df2a2a; }
+  .album_3 .card-title {
+    color: #df2a2a;
+    font-size: 2rem; }
+  .album_3 .card-text {
+    color: white;
+    font-size: 1.2rem; }
+  .album_3 img:hover {
+    opacity: 0.6; }
+
+.album_4 {
+  font-family: "Berkshire Swash", cursive;
+  background-color: #e7e7e7;
+  border: 5px solid #89a9ce; }
+  .album_4 .card-title {
+    color: #89a9ce;
+    font-size: 2rem; }
+  .album_4 .card-text {
+    color: #5a7696;
+    font-size: 1.2rem; }
+  .album_4 img:hover {
+    opacity: 0.6; }
+
+#galeria img {
+  border: 5px solid #ed6fa3; }
+  #galeria img:hover {
+    transform: scale(1.1, 1.1);
+    transition: 1s;
+    filter: brightness(110%); }
 
 .tienda {
   background-color: #81ccdd; }
