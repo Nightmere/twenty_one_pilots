@@ -149,28 +149,29 @@ body {
           color: #ed6fa3;
           transition: 0.5s; }
 
-.tabla {
+#tour {
   font-family: "Berkshire Swash", cursive;
-  background-color: #81ccdd;
   border: 2px solid black;
-  margin: 5rem; }
-  .tabla h2 {
-    font-size: 3rem;
+  background-color: #81ccdd; }
+  #tour .tour_title {
     background-color: #ed6fa3;
     color: white;
-    margin-bottom: 0; }
-  .tabla div {
+    padding: 0.5rem; }
+    #tour .tour_title h1 {
+      margin-bottom: 0; }
+  #tour .tour_body {
     font-size: 1.2rem; }
-    .tabla div table {
-      margin: 0; }
-      .tabla div table tr {
-        border-top: 2px solid black; }
-        .tabla div table tr td {
-          padding: 1rem; }
-          .tabla div table tr td span {
-            cursor: pointer; }
-            .tabla div table tr td span:hover {
-              color: #ed6fa3; }
+    #tour .tour_body .row {
+      border-top: 2px solid black;
+      align-items: center; }
+      #tour .tour_body .row p {
+        padding: 1rem;
+        margin-bottom: 0; }
+        #tour .tour_body .row p span {
+          cursor: pointer; }
+          #tour .tour_body .row p span:hover {
+            color: #ed6fa3;
+            transition: 0.2s; }
 
 .album_1 {
   font-family: "Berkshire Swash", cursive;
@@ -231,31 +232,28 @@ body {
     transition: 1s;
     filter: brightness(110%); }
 
-.tienda {
-  background-color: #81ccdd; }
-  .tienda .titulo_tienda {
-    text-align: center;
+#tienda {
+  background-color: #81ccdd;
+  border: 5px solid #ed6fa3; }
+  #tienda h1 {
     font-family: "Berkshire Swash", cursive;
     font-size: 3rem;
     color: #ed6fa3; }
-
-.col-4 {
-  flex-basis: 33%;
-  padding: 10px;
-  min-width: 200px;
-  text-align: center;
-  font-family: "Berkshire Swash", cursive;
-  font-size: 1.5rem;
-  margin: 1px;
-  border: 2px solid #ffe8e8;
-  color: white;
-  transition: transform 0.5s; }
-  .col-4:hover {
-    transform: translateY(-5px);
-    opacity: 0.6;
-    cursor: pointer; }
-  .col-4 img {
-    width: 100%; }
+  #tienda .store_body {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 1.5rem;
+    color: white; }
+    #tienda .store_body .row {
+      margin: 0.5rem; }
+      #tienda .store_body .row div {
+        border: 1px solid white;
+        transition: transform 0.5s; }
+        #tienda .store_body .row div:hover {
+          transform: translateY(-3px);
+          opacity: 0.6;
+          cursor: pointer; }
+        #tienda .store_body .row div p {
+          margin-bottom: 0.5rem; }
 
 @media (max-width: 768px) {
   .galeria {

@@ -1,28 +1,29 @@
-.tabla {
+#tour {
     font-family: $fuente1;
-    background-color: $celeste;
     border: 2px solid black;
-    margin: 5rem;
-    h2 {
-        font-size: 3rem;
+    background-color: $celeste;
+    .tour_title {
         background-color: $rosa;
         color: $blanco;
-        margin-bottom: 0;
+        padding: 0.5rem;
+        h1 {
+            margin-bottom: 0;
+        }
     }
-    div {
+    .tour_body {
         font-size: 1.2rem;
-        table {
-            margin: 0;
-            tr {
-                border-top: 2px solid black;
-                td {
-                    padding: 1rem;
-                    span {
-                        cursor: pointer;
+        .row {
+            border-top: 2px solid black;
+            align-items: center;
+            p {
+                padding: 1rem;
+                margin-bottom: 0;
+                span {
+                    cursor: pointer;
                         &:hover {
                             color: $rosa;
+                            transition: 0.2s;
                         }
-                    }
                 }
             }
         }

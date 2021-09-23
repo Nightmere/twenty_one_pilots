@@ -1,31 +1,29 @@
-.tienda {
+#tienda {
     background-color: $celeste;
-    .titulo_tienda {
-        text-align: center;
+    border: 5px solid $rosa;
+    h1 {
         font-family: $fuente1;
         font-size: 3rem;
         color: $rosa;
     }
-}
-
-.col-4 {
-    flex-basis: 33%;
-    padding: 10px;
-    min-width: 200px;
-    text-align: center;
-    font-family: $fuente1;
-    font-size: 1.5rem;
-    margin: 1px;
-    border: 2px solid #ffe8e8;
-    color: $blanco;
-    transition: transform 0.5s;
-    &:hover {
-        transform: translateY(-5px);
-        opacity: 0.6;
-        cursor: pointer;
+    .store_body {
+        font-family: $fuente1;
+        font-size: 1.5rem;
+        color: $blanco;
+        .row {
+            margin: 0.5rem;
+            div {
+                border: 1px solid $blanco;
+                transition: transform 0.5s;
+                &:hover {
+                    transform: translateY(-3px);
+                    opacity: 0.6;
+                    cursor: pointer;
+                }
+                p {
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
     }
-    img {
-        width: 100%;
-    }
 }
-
