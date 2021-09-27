@@ -2,7 +2,7 @@
     img {
         border: 5px solid $rosa;
             &:hover {
-                transform: scale(1.1, 1.1);
+                transform: scale(1.05, 1.05);
                 transition: 1s;
                 filter: brightness(110%);
             }

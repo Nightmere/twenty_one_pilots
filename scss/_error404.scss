@@ -1,0 +1,21 @@
+#error {
+    margin: 2.5rem 0rem;
+    text-align: center;
+    h1 {
+        font-family: $fuente1;
+        font-size: 9rem;
+        color: $rosa;
+    }
+    h2 {
+        font-family: $fuente2;
+        font-size: 3rem;
+        a {
+            color: $celeste;
+            text-decoration: none;
+            &:hover {
+                color: $azul;
+                transition: 0.5s;
+            }
+        }
+    }
+}

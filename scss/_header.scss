@@ -1,3 +1,13 @@
+.navbar-nav {
+    font-family: $fuente2;
+    font-size: 1.3rem;
+    li {
+        border: 2px solid $azul;
+        margin: 0 1.5rem;
+        padding: 5px;
+    }
+}
+
 .nav-link {
     color: $azul !important;
     &:hover {
@@ -8,14 +18,4 @@
 .logo {
     background-color: $celeste;
     width: 5rem;
-}
-
-.navbar-nav {
-    font-family: $fuente2;
-    font-size: 1.3rem;
-    li {
-        border: 2px solid $azul;
-        margin: 0 1.5rem;
-        padding: 5px;
-    }
 }

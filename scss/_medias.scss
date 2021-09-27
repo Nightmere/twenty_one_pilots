@@ -1,9 +1,19 @@
-@media (max-width: 768px) {
-    .galeria {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(3,1fr);
-        gap: 10px;
-        padding: 20px;
+// MEDIA ERROR 404
+@media (max-width:767px){
+    #error {
+        h1{
+            font-size: 4rem;
+        }
+    }
+}
+
+// MEDIA TOUR
+@media (max-width:767px){
+    .tour_body {
+        .row {
+            p {
+                padding: 0.5rem !important;
+            }
+        }
     }
 }

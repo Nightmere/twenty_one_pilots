@@ -6,6 +6,14 @@
 body {
   background-color: #ffe8e8; }
 
+.navbar-nav {
+  font-family: "Pacifico", cursive;
+  font-size: 1.3rem; }
+  .navbar-nav li {
+    border: 2px solid #209cb8;
+    margin: 0 1.5rem;
+    padding: 5px; }
+
 .nav-link {
   color: #209cb8 !important; }
   .nav-link:hover {
@@ -15,137 +23,98 @@ body {
   background-color: #81ccdd;
   width: 5rem; }
 
-.navbar-nav {
-  font-family: "Pacifico", cursive;
-  font-size: 1.3rem; }
-  .navbar-nav li {
-    border: 2px solid #209cb8;
-    margin: 0 1.5rem;
-    padding: 5px; }
-
-.tituloPrincipal, .tituloSecundario {
+.titulo_principal, .titulo_secundario {
   color: #81ccdd;
   font-family: "Berkshire Swash", cursive;
   font-size: 4rem;
   text-align: center;
   margin-top: 1rem; }
 
-.tituloSecundario {
+.titulo_secundario {
   color: #209cb8;
-  font-size: 2.5rem; }
+  font-size: 3rem; }
 
-.contenedor_principal {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-  align-items: center;
+.seccion_1 {
+  font-family: "Berkshire Swash", cursive;
   background-color: #81ccdd;
-  margin: 1.5rem 0px;
-  padding: 1rem; }
-  .contenedor_principal h3 {
-    font-family: "Berkshire Swash", cursive;
+  margin: 1rem 0rem;
+  padding: 2rem 0rem; }
+  .seccion_1 h3 {
     font-size: 3rem;
-    color: white;
-    padding-right: 2rem; }
-  .contenedor_principal h4 {
-    font-family: "Berkshire Swash", cursive;
-    font-size: 3rem;
-    color: #ed6fa3;
-    padding-left: 2rem;
-    text-align: center; }
-  .contenedor_principal ul {
-    font-family: "Berkshire Swash", cursive;
-    font-size: 2rem;
-    margin-left: 7rem;
-    background-color: #ffe8e8;
-    padding: 15px;
+    color: white; }
+  .seccion_1 h4 {
+    font-size: 2.5rem;
+    color: #ed6fa3; }
+  .seccion_1 a {
     text-decoration: none;
-    list-style: none; }
-    .contenedor_principal ul li a {
-      color: #ed6fa3; }
-      .contenedor_principal ul li a:hover {
-        color: #209cb8; }
+    font-family: "Pacifico", cursive;
+    padding: 1rem;
+    background-color: #ed6fa3;
+    color: white; }
+    .seccion_1 a:hover {
+      color: #81ccdd;
+      transition: 0.5s; }
 
-.contenedor_secundario {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.seccion_2 {
+  font-family: "Pacifico", cursive;
   background-color: #ed6fa3;
-  margin: 2rem 0px;
-  padding: 1rem; }
-  .contenedor_secundario h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Berkshire Swash", cursive;
-    font-size: 3.5rem;
-    color: white;
-    width: 100%;
-    padding-bottom: 1rem; }
-  .contenedor_secundario h4 {
+  margin: 2rem 0rem;
+  padding: 2rem 0rem; }
+  .seccion_2 h3 {
     font-size: 3rem;
-    font-family: "Berkshire Swash", cursive;
-    color: #81ccdd;
-    padding: 0rem 2rem;
-    text-align: center; }
-  .contenedor_secundario video {
-    width: 50%; }
+    color: white; }
+  .seccion_2 a:hover {
+    opacity: 0.6;
+    cursor: pointer; }
 
 .contenedor_footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   margin-top: 2rem; }
-
-.contenedor_footer__section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-color: #81ccdd;
-  padding: 1rem 0rem; }
-  .contenedor_footer__section h5 {
-    width: 100%;
-    padding-bottom: 1rem;
-    margin: 0rem; }
-  .contenedor_footer__section form input {
-    font-family: "Berkshire Swash", cursive;
-    font-size: 1rem;
-    padding: 1rem;
-    border: none; }
-  .contenedor_footer__section .contenedor_footer__section_suscribe {
-    color: white;
-    background-color: #ed6fa3; }
-    .contenedor_footer__section .contenedor_footer__section_suscribe:hover {
-      opacity: 0.8; }
+  .contenedor_footer .contenedor_footer_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #81ccdd;
+    padding: 1rem 0rem; }
+    .contenedor_footer .contenedor_footer_section h5 {
+      width: 100%;
+      padding-bottom: 1rem;
+      margin: 0rem; }
+    .contenedor_footer .contenedor_footer_section form input {
+      font-family: "Berkshire Swash", cursive;
+      font-size: 1rem;
+      padding: 1rem;
+      border: none; }
+    .contenedor_footer .contenedor_footer_section .contenedor_footer_section_suscribe {
+      color: white;
+      background-color: #ed6fa3; }
+      .contenedor_footer .contenedor_footer_section .contenedor_footer_section_suscribe:hover {
+        opacity: 0.8; }
 
 .footer_nav {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1rem; }
-  .footer_nav .footer_nav__bar {
+  .footer_nav .footer_nav_bar {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center; }
-    .footer_nav .footer_nav__bar h5 {
+    .footer_nav .footer_nav_bar h5 {
       color: #209cb8;
       font-family: "Berkshire Swash", cursive;
       font-size: 1.5rem;
       width: 100%; }
-    .footer_nav .footer_nav__bar ul {
+    .footer_nav .footer_nav_bar ul {
       list-style: none;
       padding: 0; }
-      .footer_nav .footer_nav__bar ul li a {
+      .footer_nav .footer_nav_bar ul li a {
         text-decoration: none;
         color: #209cb8;
         font-family: "Berkshire Swash", cursive;
         font-size: 1rem; }
-        .footer_nav .footer_nav__bar ul li a:hover {
+        .footer_nav .footer_nav_bar ul li a:hover {
           color: #ed6fa3;
           transition: 0.5s; }
 
@@ -228,7 +197,7 @@ body {
 #galeria img {
   border: 5px solid #ed6fa3; }
   #galeria img:hover {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.05, 1.05);
     transition: 1s;
     filter: brightness(110%); }
 
@@ -255,10 +224,27 @@ body {
         #tienda .store_body .row div p {
           margin-bottom: 0.5rem; }
 
-@media (max-width: 768px) {
-  .galeria {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
-    padding: 20px; } }
+#error {
+  margin: 2.5rem 0rem;
+  text-align: center; }
+  #error h1 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 9rem;
+    color: #ed6fa3; }
+  #error h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 3rem; }
+    #error h2 a {
+      color: #81ccdd;
+      text-decoration: none; }
+      #error h2 a:hover {
+        color: #209cb8;
+        transition: 0.5s; }
+
+@media (max-width: 767px) {
+  #error h1 {
+    font-size: 4rem; } }
+
+@media (max-width: 767px) {
+  .tour_body .row p {
+    padding: 0.5rem !important; } }

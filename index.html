@@ -56,25 +56,43 @@
     
     <!-- MAIN -->
     <main>
-        <section>
-            <h1 class="tituloPrincipal">TWENTY ONE PILOTS</h1>
-            <h2 class="tituloSecundario">NUESTRAS NOVEDADES</h2>
-        </section>
-        <section class="contenedor_principal">
-            <h3>NUEVO <br> ÁLBUM</h3>
-            <img src="./imagenes/albums/sai.jpg" alt="portada_album" title="portada_album">
-            <h4>SCALED <br> AND <br> ICY</h4>
-            <ul>
-                <li>
-                    <a href="store.html">COMPRAR</a>
-                </li>
-            </ul>
-        </section>
-        <section class="contenedor_secundario">
-            <h3>NUEVO VIDEO</h3>
-            <h4>SATURDAY</h4>
-            <video src="./videos/saturday.mp4" alt="video_saturday" controls></video>
-            <h4>VER AHORA!</h4>
+        <section class="container-fluid px-0 text-center">
+            <div>
+                <h1 class="titulo_principal">TWENTY ONE PILOTS</h1>
+                <h2 class="titulo_secundario">NUESTRAS NOVEDADES</h2>
+            </div>
+            <div class="row align-items-center seccion_1">
+                <div class="col-md-4">
+                    <h3>NUEVO <br> ÁLBUM</h3>
+                </div>
+                <div class="col-md-4">
+                    <img src="./imagenes/albums/sai.jpg" alt="portada_album" title="portada_album" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <h4>Scaled <br> And <br> Icy</h4><br>
+                    <a href="musica.html">ESCUCHALO AHORA</a>
+                </div>
+            </div>
+            <div class="row align-items-center seccion_2">
+                <div class="col-12">
+                    <h3>NUEVOS PRODUCTOS</h3>
+                </div>
+                <div class="col-md-4">
+                    <a href="store.html">
+                        <img src="./imagenes/store/tienda_1.png" alt="Dragon Hoodie" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="store.html">
+                        <img src="./imagenes/store/tienda_2.png" alt="Scaled And Icy Vinilo" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="store.html">
+                        <img src="./imagenes/store/tienda_3.png" alt="Spectrum Hoodie" class="img-fluid">
+                    </a>
+                </div>
+            </div>
         </section>
     </main>
     <!-- FIN MAIN -->
@@ -82,18 +100,18 @@
     <!-- FOOTER -->
     <footer class="contenedor_footer">
         <!-- FORMULARIO EMAIL -->
-        <div class="contenedor_footer__section">
-            <h5 class="tituloSecundario">RECIBIR NOVEDADES</h5>
+        <div class="contenedor_footer_section">
+            <h5 class="titulo_secundario">RECIBIR NOVEDADES</h5>
             <form action="">
                 <input type="email" name="correo" placeholder="Correo Electronico" required>
-                <input class="contenedor_footer__section_suscribe" type="submit" value="Suscribirse" >
+                <input class="contenedor_footer_section_suscribe" type="submit" value="Suscribirse" >
             </form>
         </div>
         <div class="footer_nav">
             <a href="index.html">
                 <img src="imagenes/logo.png" alt="Logo" title="Logo" class="logo">
             </a>
-            <div class="footer_nav__bar">
+            <div class="footer_nav_bar">
                 <h5>SEGUINOS:</h5>
                 <ul>
                     <li>
